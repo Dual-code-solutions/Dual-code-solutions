@@ -38,11 +38,11 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <Image
-                src="/Logo-sin-texto.png"
+                src="/Logo-imagen_copia-removebg-preview.png"
                 alt="Dual Code Solutions"
-                width={56}
-                height={56}
-                className="h-12 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.05)]"
+                width={80}
+                height={80}
+                className="h-[50px] sm:h-[60px] w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.05)]"
               />
               <span className="font-montserrat font-bold text-white text-lg">
                 Dual Code

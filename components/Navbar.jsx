@@ -51,11 +51,11 @@ export default function Navbar() {
           className="flex items-center gap-3 shrink-0 group"
         >
           <Image
-            src="/Logo-sin-texto.png"
+            src="/Logo-imagen_copia-removebg-preview.png"
             alt="Dual Code Solutions"
             width={120}
             height={120}
-            className="h-[75px] w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255,255,0.2)] transition-transform group-hover:scale-105"
+            className="h-[60px] sm:h-[75px] w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255,255,0.2)] transition-transform group-hover:scale-105"
           />
           <span className="font-montserrat font-bold text-white text-xl hidden sm:block drop-shadow-sm">
             Dual Code Solutions
