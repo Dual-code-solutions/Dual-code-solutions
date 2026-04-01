@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <Image
-                src="/Logo-imagen_copia-removebg-preview.png"
+                src="/logo-dual-code.png"
                 alt="Dual Code Solutions"
                 width={80}
                 height={80}

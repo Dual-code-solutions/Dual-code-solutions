@@ -51,7 +51,7 @@ export default function Navbar() {
           className="flex items-center gap-3 shrink-0 group"
         >
           <Image
-            src="/Logo-imagen_copia-removebg-preview.png"
+            src="/logo-dual-code.png"
             alt="Dual Code Solutions"
             width={120}
             height={120}

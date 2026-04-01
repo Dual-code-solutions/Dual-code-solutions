@@ -33,11 +33,11 @@ export default function Hero() {
         <div className="mb-4 sm:mb-6 lg:mb-8 animate-fade-in-up relative z-10">
           <div className="relative inline-block group">
             <Image
-              src="/Logo-imagen_copia-removebg-preview.png"
+              src="/logo-dual-code.png"
               alt="Dual Code Solutions Logo Principal"
               width={800}
               height={800}
-              className="mx-auto w-[200px] sm:w-[360px] lg:w-[480px] h-auto object-contain transition-transform duration-500 group-hover:scale-[1.03] drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]"
+              className="mx-auto w-[110px] sm:w-[150px] lg:w-[220px] h-auto object-contain transition-transform duration-500 group-hover:scale-[1.03] drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]"
               priority
             />
           </div>
