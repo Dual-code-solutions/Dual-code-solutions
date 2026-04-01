@@ -53,9 +53,9 @@ export default function Navbar() {
           <Image
             src="/Logo-sin-texto.png"
             alt="Dual Code Solutions"
-            width={48}
-            height={48}
-            className="h-10 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.1)]"
+            width={64}
+            height={64}
+            className="h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.15)] transition-transform group-hover:scale-105"
           />
           <span className="font-montserrat font-bold text-white text-lg hidden sm:block drop-shadow-sm">
             Dual Code Solutions

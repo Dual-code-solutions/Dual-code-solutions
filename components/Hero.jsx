@@ -30,14 +30,14 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-[90px] pb-24 sm:pb-32">
         {/* Logo with glow background */}
-        <div className="mb-10 animate-fade-in-up">
+        <div className="mb-5 animate-fade-in-up">
           <div className="relative inline-block group">
             <Image
-              src="/Logo-principal.png"
+              src="/Logo-sin-texto.png"
               alt="Dual Code Solutions Logo Principal"
-              width={320}
-              height={320}
-              className="mx-auto h-[160px] sm:h-[200px] lg:h-[240px] w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+              width={400}
+              height={400}
+              className="mx-auto h-[180px] sm:h-[240px] lg:h-[300px] w-auto object-contain transition-transform duration-500 group-hover:scale-105"
               priority
             />
           </div>

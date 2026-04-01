@@ -40,9 +40,9 @@ export default function Footer() {
               <Image
                 src="/Logo-sin-texto.png"
                 alt="Dual Code Solutions"
-                width={40}
-                height={40}
-                className="h-9 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.05)]"
+                width={56}
+                height={56}
+                className="h-12 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.05)]"
               />
               <span className="font-montserrat font-bold text-white text-lg">
                 Dual Code
