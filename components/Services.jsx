@@ -10,7 +10,7 @@ const services = [
       </svg>
     ),
     title: "Desarrollo Web",
-    description: "Apps web modernas con React, Next.js, HTML/CSS/JS. Diseño responsivo y optimizado para SEO.",
+    description: "Apps web modernas con Angular, React, Next.js. Diseño responsivo y optimizado para SEO.",
     gradient: "from-blue-500/10 to-cyan-500/10",
   },
   {
@@ -40,7 +40,7 @@ const services = [
       </svg>
     ),
     title: "Diseño UI/UX",
-    description: "Interfaces atractivas y centradas en el usuario, con Figma y principios de usabilidad.",
+    description: "Interfaces atractivas y centradas en el usuario con Figma, preparadas para integración fluida en Angular y React.",
     gradient: "from-pink-500/10 to-rose-500/10",
   },
   {
