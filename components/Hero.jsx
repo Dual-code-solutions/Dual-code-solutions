@@ -28,16 +28,16 @@ export default function Hero() {
       <div className="absolute top-[60%] left-[50%] w-[300px] h-[300px] bg-green-brand/5 rounded-full blur-[100px] animate-float" style={{ animationDelay: "1.5s" }} />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-[90px] pb-24 sm:pb-32">
+      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-[120px] pb-24 sm:pb-32">
         {/* Logo with glow background */}
-        <div className="mb-5 animate-fade-in-up">
+        <div className="mb-0 animate-fade-in-up">
           <div className="relative inline-block group">
             <Image
               src="/Logo-sin-texto.png"
               alt="Dual Code Solutions Logo Principal"
-              width={400}
-              height={400}
-              className="mx-auto h-[180px] sm:h-[240px] lg:h-[300px] w-auto object-contain transition-transform duration-500 group-hover:scale-105"
+              width={600}
+              height={600}
+              className="mx-auto w-[200px] sm:w-[320px] lg:w-[480px] h-auto object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]"
               priority
             />
           </div>

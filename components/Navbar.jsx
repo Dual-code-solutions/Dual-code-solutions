@@ -41,7 +41,7 @@ export default function Navbar() {
           ? "bg-navy shadow-[0_4px_20px_rgba(0,0,0,0.4)]"
           : "bg-navy/90 backdrop-blur-md"
       }`}
-      style={{ height: "72px" }}
+      style={{ height: "100px" }}
     >
       <div className="max-w-[1280px] mx-auto px-5 sm:px-8 h-full flex items-center justify-between">
         {/* Logo + Name */}
@@ -53,11 +53,11 @@ export default function Navbar() {
           <Image
             src="/Logo-sin-texto.png"
             alt="Dual Code Solutions"
-            width={64}
-            height={64}
-            className="h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.15)] transition-transform group-hover:scale-105"
+            width={120}
+            height={120}
+            className="h-[75px] w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255,255,0.2)] transition-transform group-hover:scale-105"
           />
-          <span className="font-montserrat font-bold text-white text-lg hidden sm:block drop-shadow-sm">
+          <span className="font-montserrat font-bold text-white text-xl hidden sm:block drop-shadow-sm">
             Dual Code Solutions
           </span>
         </a>
@@ -108,9 +108,8 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       <div
-        className={`lg:hidden absolute top-[72px] left-0 w-full bg-navy/98 backdrop-blur-xl shadow-xl transition-all duration-300 overflow-hidden border-t border-white/5 ${
+        className={`lg:hidden absolute top-[100px] left-0 w-full bg-navy/98 backdrop-blur-xl shadow-xl transition-all duration-300 overflow-hidden border-t border-white/5 ${
           mobileOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
