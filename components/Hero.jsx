@@ -103,13 +103,14 @@ export default function Hero() {
       </div>
 
       {/* Scroll Down Arrow */}
-      <a
-        href="#servicios"
-        onClick={(e) => handleScroll(e, "#servicios")}
-        className="absolute bottom-10 left-1/2 animate-bounce-arrow"
-        aria-label="Scroll down"
-      >
-        <div className="w-10 h-10 rounded-full border-2 border-white/30 flex items-center justify-center hover:border-white/60 transition-colors">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
+        <a
+          href="#servicios"
+          onClick={(e) => handleScroll(e, "#servicios")}
+          className="block animate-bounce"
+          aria-label="Scroll down"
+        >
+          <div className="w-10 h-10 rounded-full border-2 border-white/30 flex items-center justify-center hover:border-white/60 transition-colors">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-5 h-5 text-white/60"
@@ -124,8 +125,9 @@ export default function Hero() {
               d="M19 14l-7 7m0 0l-7-7m7 7V3"
             />
           </svg>
-        </div>
-      </a>
+          </div>
+        </a>
+      </div>
     </section>
   );
 }
