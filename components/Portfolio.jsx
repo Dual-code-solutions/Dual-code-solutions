@@ -102,6 +102,7 @@ function ProjectCard({ project }) {
                 src={project.screenshots[activeImg].src}
                 alt={project.screenshots[activeImg].alt}
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover object-top hover:scale-[1.02] transition-transform duration-700"
               />
             </div>
@@ -243,11 +244,11 @@ export default function Portfolio() {
                 </h3>
                 <p className="text-white/80 text-[16px] leading-relaxed mb-8 max-w-sm mx-auto">
                   Sé el primero en trabajar con nuestro equipo. Transformamos
-                  esbozos en aplicaciones reales.
+                  ideas en aplicaciones reales.
                 </p>
                 <a
                   href="#contacto"
-                  className="bg-green-brand hover:bg-green-hover text-white font-montserrat font-bold text-[15px] px-8 py-4.5 rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_25px_rgba(60,181,74,0.4)] inline-flex items-center gap-2.5 w-full sm:w-auto"
+                  className="bg-green-brand hover:bg-green-hover text-white font-montserrat font-bold text-[15px] px-8 py-4.5 rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_25px_rgba(60,181,74,0.4)] inline-flex items-center justify-center gap-2.5 w-full sm:w-auto"
                 >
                   Iniciar Proyecto
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-[18px] h-[18px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>

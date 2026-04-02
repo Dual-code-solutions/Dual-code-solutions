@@ -78,8 +78,8 @@ export default function About() {
             </p>
             <p className="text-gray-text text-[15px] leading-relaxed mb-10">
               Nos mantenemos a la vanguardia de las últimas tecnologías,
-              actualmente cursando nuestra especialización en Desarrollo de
-              Software Multiplataforma (5° Cuatrimestre). Combinamos formación
+              actualmente cursando la carrera de Desarrollo de
+              Software Multiplataforma. Combinamos formación
               técnica con pasión por crear productos digitales de alto impacto
               que resuelven problemas reales.
             </p>

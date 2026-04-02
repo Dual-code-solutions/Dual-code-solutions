@@ -16,6 +16,7 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://dualcodesolutions.com"),
   title: "Dual Code Solutions | Desarrollo de Software a la Medida",
   description:
     "Transformamos tus ideas en soluciones digitales escalables que impulsan tu negocio. Desarrollo web, apps móviles, APIs, UI/UX y consultoría TI desde Mérida, Yucatán.",
@@ -53,7 +54,7 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
         />
       </head>
-      <body className="min-h-screen flex flex-col">{children}</body>
+      <body className="min-h-screen flex flex-col overflow-x-hidden w-full">{children}</body>
     </html>
   );
 }

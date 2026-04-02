@@ -77,7 +77,7 @@ export default function Contact() {
                     <p className="font-montserrat font-bold text-white mb-1">
                       Correo electrónico
                     </p>
-                    <span className="text-white/70 group-hover:text-green-brand text-[15px] transition-colors">
+                    <span className="text-white/70 group-hover:text-green-brand text-[15px] transition-colors break-all">
                       serviciodualcodesolutions.devs@gmail.com
                     </span>
                   </div>
