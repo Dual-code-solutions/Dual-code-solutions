@@ -1,4 +1,4 @@
-name = "dual code solutions"
+name = "dual-code-solutions"
 compatibility_date = "2024-04-19"
 compatibility_flags = ["nodejs_compat"]
 
@@ -6,4 +6,4 @@ compatibility_flags = ["nodejs_compat"]
 # Enlaza WORKER_SELF_REFERENCE al nombre correcto
 [[services]]
 binding = "WORKER_SELF_REFERENCE"
-service = "dual code solutions"
+service = "dual-code-solutions"
