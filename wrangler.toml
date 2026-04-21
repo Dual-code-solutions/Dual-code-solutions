@@ -1,9 +1,0 @@
-name = "dual-code-solutions"
-compatibility_date = "2024-04-19"
-compatibility_flags = ["nodejs_compat"]
-
-# Esta configuracion resuelve el error 10143
-# Enlaza WORKER_SELF_REFERENCE al nombre correcto
-[[services]]
-binding = "WORKER_SELF_REFERENCE"
-service = "dual-code-solutions"
